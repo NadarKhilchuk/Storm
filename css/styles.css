@@ -234,13 +234,13 @@ font-size: 17px;
 
 
 
-.hydra-ua {
+.hydra-pl {
     margin-bottom: 45px;
     color: #FFF;
 }
-.hydra-ua-container {
+.hydra-pl-container {
 }
-.hydra-ua-title {
+.hydra-pl-title {
     display: flex;
 justify-content: center;
 align-items: center;
@@ -249,17 +249,17 @@ font-size: 30px;
 padding-bottom: 40px;
 
 }
-.hydra-ua-list {
+.hydra-pl-list {
     list-style-type: none;
  display: flex;
 flex: 1 1 calc((100% - 30px * 2) / 3);
 gap: 30px;
 }
-.hydra-ua-item {
+.hydra-pl-item {
    padding: 15px;
     border: 1px ridge  yellow;
 }
-.hydra-ua-h3 {
+.hydra-pl-h3 {
     font-weight: 600;
     font-size: 20px;
     font-style: italic;
@@ -268,12 +268,12 @@ gap: 30px;
     justify-content: center;
     align-items: center;
 }
-.hydra-ua-description {
+.hydra-pl-description {
     font-weight: normal;
     font-size: 17px;
     padding: 0 25px 0 25px;
 }
-.facts-ua {
+.facts-pl {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
@@ -285,12 +285,12 @@ gap: 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-.facts-ua-title {
+.facts-pl-title {
     font-size: 24px;
     color: #fff;
     margin-bottom: 20px;
 }
-.facts-ua-container {
+.facts-pl-container {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -298,7 +298,7 @@ gap: 30px;
     justify-content: center;
     perspective: 500px;
 }
-.facts-ua-item {
+.facts-pl-item {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -309,7 +309,7 @@ gap: 30px;
     width: 250px;
     transition: transform 0.2s ease-in-out;
 }
-.facts-ua-item::after {
+.facts-pl-item::after {
     content: "";
     position: absolute;
     top: 0;
@@ -320,7 +320,7 @@ gap: 30px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
     border-top-right-radius: 10px;
 }
-.facts-ua-item:hover {
+.facts-pl-item:hover {
     transform: rotate(0deg) scale(1.1);
 }
 footer {
